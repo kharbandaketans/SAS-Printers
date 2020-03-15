@@ -1,0 +1,1 @@
+background to be applied to content background:#C9CDCC;

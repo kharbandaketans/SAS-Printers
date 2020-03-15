@@ -1,0 +1,175 @@
+body {
+	background: #211917 url(../images/bg-body.png) repeat-y center top;
+	font-family: "QuattrocentoSans-Regular";
+	margin: 0;
+}
+
+
+#header {
+	background-color:#241b18;
+	height: 88px;
+	border-bottom: 1px solid #fff;
+	padding: 36px 0 0;
+}
+
+
+#header > div {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+	text-align: right;
+}
+
+
+#logo{
+float:left;
+}
+
+#contents, #contents > div, #contents div.body {
+	background-image: url(/images/bg-contents.png);
+	background-repeat: no-repeat;
+	}
+
+
+
+#content_1{
+width:60%;
+float:left;
+margin:2% 0 0 0;
+border-radius:5px;
+margin-top:10px;
+background:url(/images/bg-pattern.jpg);
+}
+
+
+
+
+#content_2{
+width:50%;
+float:left;
+margin:2% 0 0 0;
+border-radius:5px;
+}
+
+
+article{
+margin:0% 10% 0 0;
+padding:2% 2%;
+border-radius:5px;
+margin-left:50px;
+margin-top:30px;
+}
+
+
+
+article a{
+text-decoration:none;
+color:#000;
+}
+
+
+
+
+article a:hover{
+text-decoration:none;
+color:#eee;
+background:#000;
+}
+
+
+
+
+#side1{
+width:15%;
+height:40%;
+background:#C9CDCC;
+border-radius:5px;
+margin:0% 0 0 2%;
+padding:0 2%;
+float:left;
+margin-left:50px;
+margin-top:7%;
+font-size:20px;
+}
+
+
+
+
+#side1 a{
+text-decoration:none;
+color:black;
+}
+
+
+
+
+#side2{
+width:34%;
+background:#C9CDCC;
+border-radius:5px;
+margin:2% 0 0 2%;
+padding:0 2%;
+float:left;
+margin-left:0px;
+}
+
+
+#menu{
+display: inline-block;
+	line-height: 80px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+*width: 345px; /** Needed for IE7 **/
+}
+
+
+
+#menu li {
+	float: left;
+	margin: 0 15px;
+}
+#menu li:first-child {
+	margin-left: 0;
+}
+#menu li a {
+	color: #fff;
+	font-family: "Oswald";
+	font-size: 14px;
+	padding: 15px 0;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+
+#menu li a:hover, #menu li.active a {
+	color: #ffc947;
+}
+
+
+
+#about{
+margin-left:15%;
+width:70%;
+float:left;
+}
+
+
+#slideshow{
+margin-top:30px;
+margin-left:40%;
+}
+
+
+
+footer{
+position:absolute;
+width:100%;
+background:#e2b241;
+float:left;
+border-radius:5px;
+color:black;
+height:10%;
+padding:1px;
+}
